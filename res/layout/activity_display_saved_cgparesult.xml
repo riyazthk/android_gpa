@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:background="@drawable/texture"
+     >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/tvSavedCgpaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Saved Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+
+    
+    <TextView
+        android:id="@+id/tvStoredRegulation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Regulation: "
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+        android:id="@+id/tvStoredDept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dept: "
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    
+    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 1: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 2: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+   <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 3: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 4: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 5: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>    
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 6: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>  
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 7: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>  
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Semester 8: "
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredSem8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout> 
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">
+    
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CGPA : "
+        android:textColor="#FF0000"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <TextView
+        android:id="@+id/tvStoredCgpa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textColor="#FF0000"
+        android:layout_weight="50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+    </LinearLayout>
+    
+  <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:weightSum="100">	   
+
+	   <Button
+	       android:id="@+id/btGraphCgpa"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_marginRight="5dp"
+	       android:layout_weight="50"
+	       android:background="@drawable/custom"
+	       android:text="Graph it" />
+
+  <Button
+      android:id="@+id/btDeleteEntry"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      
+      android:layout_marginLeft="5dp"
+      android:layout_weight="50"
+      android:background="@drawable/custom"
+      android:text="Delete it" />
+	   
+</LinearLayout>
+<Button
+      android:id="@+id/btExportCgpaHtml"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/custom"
+      android:text="Export as HTML" />
+</LinearLayout>
+   </ScrollView>
+  

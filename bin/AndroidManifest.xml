@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vishnu.cgpa"
+    android:installLocation="preferExternal"
+    android:versionCode="13"
+    android:versionName="5.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="5"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vishnu.cgpa.CGPACalc"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.OptionSelect"
+            android:label="@string/title_activity_option_select" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.GPACalc"
+            android:label="@string/title_activity_gpacalc" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.PredictExternal"
+            android:label="@string/title_activity_predict_external" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.DisplayPredictedExternal"
+            android:label="@string/title_activity_display_predicted_external"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.Display_GPA_Prediction"
+            android:label="@string/title_activity_display__gpa__prediction"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.InternalMarkCalc"
+            android:label="@string/title_activity_internal_mark_calc" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.GettingStarted"
+            android:label="@string/title_activity_getting_started"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.ListSavedCgpa"
+            android:label="@string/title_activity_list_saved_cgpa" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.DisplaySavedCGPAResult"
+            android:label="@string/title_activity_display_saved_cgparesult" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.FeedBackMail"
+            android:label="@string/title_activity_feed_back_mail" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.ListSavedGpa"
+            android:label="@string/title_activity_list_saved_gpa" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.DisplaySavedGpa"
+            android:label="@string/title_activity_display_saved_gpa" >
+        </activity>
+        <activity
+            android:name="com.vishnu.cgpa.CgpaGraph"
+            android:label="@string/title_activity_cgpa_graph" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="com.vishnu.cgpa.CgpaBarGraph"
+            android:label="@string/title_activity_cgpa_bar_graph" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

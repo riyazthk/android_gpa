@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/texture" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvPredictExtDeptReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Department(Regulation)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvAbtDevs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Internal Marks"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvVersionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Theory Grades" />
+
+            <EditText
+                android:id="@+id/etSub1Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject1"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/etSub2Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject2"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etSub3Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject3"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etSub4Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject4"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etSub5Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject5"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etSub6Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Subject6"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab Internals" />
+
+            <EditText
+                android:id="@+id/etLab1Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Lab1"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etLab2Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Lab2"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etLab3Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Lab3"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etLab4Int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Internal Mark of Lab4"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvDisplayInternalOutOfBound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btCalcExternal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom"
+                android:text="Predict External Marks" />
+
+            <TextView
+                android:id="@+id/dummy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dummy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dummy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id" />
+
+</RelativeLayout>

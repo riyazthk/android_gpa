@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/texture" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/texture"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvGPAMyDept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Civil Engineering(2009)"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/tvVersionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select your Grades"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="(Select NA where ever needed)" />
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Credit Pts" >
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Grade" >
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/sub1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 1"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sub2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 2"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sub3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 3"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sub4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 4"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sub5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 5"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/sub6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject 6"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spCredit6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/credits" />
+
+                    <Spinner
+                        android:id="@+id/spGrade6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/labs"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:text="Select Laboratory Grades"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="5dp" >
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvLab1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Lab 1"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/splabCredit1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/labcredits" />
+
+                    <Spinner
+                        android:id="@+id/splabGrade1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvLab2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Lab 2"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/splabCredit2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/labcredits" />
+
+                    <Spinner
+                        android:id="@+id/splabGrade2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvLab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Lab 3"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/splabCredit3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/labcredits" />
+
+                    <Spinner
+                        android:id="@+id/splabGrade3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/lab4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Lab 4"
+                        android:textAppearance="?android:attr/textAppearanceLarge" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/splabCredit4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/labcredits" />
+
+                    <Spinner
+                        android:id="@+id/splabGrade4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:entries="@array/Grades"
+                        android:focusable="true" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/tvMyGpa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <Button
+                    android:id="@+id/btCalcGPA"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="50"
+                    android:background="@drawable/custom"
+                    android:text="Calculate GPA" />
+
+                <Button
+                    android:id="@+id/btSaveGpaToDb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:background="@drawable/custom"
+                    android:enabled="false"
+                    android:text="SAVE GPA"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btViewSavedGpa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/custom"
+                android:text="View Saved GPA" />
+
+            <TextView
+                android:id="@+id/dummy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dummy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/dummy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/ad_id" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedDebugMode" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/activity_getting_started.xml" />
+    </issue>
+    <issue id="SelectableText">
+        <ignore path="res/layout/activity_gpacalculator.xml" />
+    </issue>
+</lint>
